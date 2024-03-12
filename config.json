@@ -1,12 +1,12 @@
 {
 	"type": "minecraftBedrock",
-	"name": "UHC Mode",
-	"namespace": "uhc",
+	"name": "Hardcore Modes",
+	"namespace": "ucmodes",
 	"authors": [
 		"Twig"
 	],
 	"targetVersion": "1.20.60",
-	"description": "Allows you to play Ultra Hardcore mode",
+	"description": "Allows you to play many different Hardcore Modes",
 	"experimentalGameplay": {
 		"holidayCreatorFeatures": false,
 		"creationOfCustomBiomes": false,
