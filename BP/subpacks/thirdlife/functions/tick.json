@@ -1,0 +1,8 @@
+{
+	"values": [
+		"on_world_startup",
+		"on_player_first_joined",
+		"on_player_respawn",
+		"on_world_tick"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"values": [
+		"on_world_startup",
+		"on_player_dies"
+	]
+}
