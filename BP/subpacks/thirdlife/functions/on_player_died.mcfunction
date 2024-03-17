@@ -1,6 +1,8 @@
-execute as @a[scores={respawn=1}] run scoreboard players operation @s lives -= @e[type=armor_stand, name=NUM_ONE, tag=NUM_ONE] one
+scoreboard players set @a[scores={alive=!2}] alive 0
+scoreboard players set @e[type=player] alive 1
 
-execute as @a[scores={respawn=1}] if score @s lives <= zero ZERO run gamemode spectator
+execute as @a[scores={alive=0}] run scoreboard players remove @s lives 1
 
-scoreboard players set @a respawn 1
-scoreboard players set @e[type=player] respawn 0
+execute as @a[scores={alive=0}] if score @s lives <= n0 zero run function lives0
+
+scoreboard players set @a[scores={alive=0}] alive 2

@@ -2,7 +2,7 @@
 	"format_version": 2,
 	"metadata": {
 		"authors": [
-			"Twig"
+			""
 		],
 		"generated_with": {
 			"bridge": [
@@ -21,7 +21,7 @@
 			20,
 			60
 		],
-		"uuid": "11c061a8-f57b-4d19-b8fc-fb2db61de92d",
+		"uuid": "e358806c-2073-4d91-a152-87db4e035e78",
 		"version": [
 			1,
 			0,
@@ -30,30 +30,13 @@
 	},
 	"modules": [
 		{
-			"type": "data",
-			"uuid": "18fd994d-35e7-4fcf-a78b-1682c565655d",
+			"type": "resources",
+			"uuid": "998beff8-6ade-4e07-a880-f8e2fbf9c0ad",
 			"version": [
 				1,
 				0,
 				0
 			]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "hardcore",
-			"name": "Hardcore",
-			"memory_tier": 2
-		},
-		{
-			"folder_name": "uhc",
-			"name": "§4Ultra Hardcore",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "thirdlife",
-			"name": "§6Third §aLife",
-			"memory_tier": 0
 		}
 	]
 }
